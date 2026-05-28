@@ -226,13 +226,7 @@ This makes a copy of the template. The new file is called `.env.local` and is au
 Open `.env.local` in any text editor. You'll see something like this:
 
 ```env
-NEXT_PUBLIC_SUPABASE_URL=https://xspttvvxycodvvjxvgfu.supabase.co/rest/v1/
-NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhzcHR0dnZ4eWNvZHZ2anh2Z2Z1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk5MjUzMDcsImV4cCI6MjA5NTUwMTMwN30.
-SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhzcHR0dnZ4eWNvZHZ2anh2Z2Z1Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3OTkyNTMwNywiZXhwIjoyMDk1NTAxMzA3fQ.xi8vQhxlc-9wpa6GMsrakXmNr-VS61TFtDxlaqio9z8
-FINNHUB_API_KEY=d8bpkphr01qkc5gcume0d8bpkphr01qkc5gcumeg
-ANTHROPIC_API_KEY=sk-ant-...
-CRON_SECRET=replace_with_a_long_random_string
-NEXT_PUBLIC_APP_URL=http://localhost:3000
+
 ```
 
 Replace each value with what you copied:

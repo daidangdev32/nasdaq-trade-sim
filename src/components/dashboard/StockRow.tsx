@@ -28,7 +28,7 @@ export function StockRow({ quote }: { quote: Quote }) {
       </div>
       <div className="col-span-3 sm:col-span-2 text-right tabular-nums font-medium">{fmtUSD(quote.price)}</div>
       <div className="col-span-4 sm:col-span-3 text-right">
-        <Pill tone={t === "flat" ? "neutral" : t}>
+        <Pill tone={t}>
           {t === "bull" ? <TrendingUp className="w-3 h-3" /> : t === "bear" ? <TrendingDown className="w-3 h-3" /> : null}
           {fmtPct(quote.changePct)}
         </Pill>

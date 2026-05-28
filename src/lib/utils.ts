@@ -55,8 +55,8 @@ export function fmtQty(n: number | null | undefined): string {
   return n.toFixed(6);
 }
 
-export function tone(n: number | null | undefined): "bull" | "bear" | "flat" {
-  if (n === null || n === undefined || Number.isNaN(n) || n === 0) return "flat";
+export function tone(n: number | null | undefined): "bull" | "bear" | "neutral" {
+  if (n === null || n === undefined || Number.isNaN(n) || n === 0) return "neutral";
   return n > 0 ? "bull" : "bear";
 }
 

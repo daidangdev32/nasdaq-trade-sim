@@ -88,7 +88,7 @@ export default async function StockDetailPage({ params }: { params: { symbol: st
         <Card className="lg:col-span-2">
           <CardHeader>
             <CardTitle>180-day price history</CardTitle>
-            <Pill tone={t === "flat" ? "neutral" : t}>
+            <Pill tone={t}>
               {t === "bull" ? <TrendingUp className="w-3 h-3" /> : t === "bear" ? <TrendingDown className="w-3 h-3" /> : null}
               {fmtPct(quote.changePct)}
             </Pill>
